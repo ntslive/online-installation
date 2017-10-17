@@ -96,11 +96,11 @@ $logo-size: 40px;
         opacity: 0.75;
     }
 
-    -webkit-transition: all 0.13s;
-    -moz-transition: all 0.13s;
-    -ms-transition: all 0.13s;
-    -o-transition: all 0.13s;
-    transition: all 0.13s;
+    -webkit-transition: opacity 0.13s;
+    -moz-transition: opacity 0.13s;
+    -ms-transition: opacity 0.13s;
+    -o-transition: opacity 0.13s;
+    transition: opacity 0.13s;
 }
 
 #iframe-container {
@@ -142,12 +142,14 @@ $logo-size: 40px;
     overflow-y: scroll;
 
     opacity: 1;
-    transition: all 1s linear;
 }
 #text-container {
     max-width: 1200px;
     margin-top: 25px;
     padding: 0 25px 80px;
+}
+#text-container p {
+    font-family: Arial;
 }
 #hide-container {
     position: fixed;
