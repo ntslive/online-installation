@@ -16,12 +16,19 @@ function handleVideos() {
     let video1 =  document.getElementById('video1');
     let video2 =  document.getElementById('video2');
     let video3 =  document.getElementById('video3');
-
-    video1
 }
 
 $(document).ready(function() {
+    let $overlay = $("#overlay");
     ga('send', 'pageview', window.location.pathname);
+
+    $('#text-handler').click(function() {
+        $overlay.removeClass('desktop-hidden');
+    });
+
+    $('#hide-handler').click(function() {
+        $overlay.addClass('desktop-hidden');
+    });
 
 
 });

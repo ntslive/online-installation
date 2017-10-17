@@ -13,7 +13,16 @@ module.exports = function (grunt) {
                     style: 'nested'
                 },
                 files: {
-                    'style.css': 'style.scss'
+                    'public/css/style.css': 'style.scss'
+                }
+            },
+            compile_production: {
+                options: {
+                    style: 'compressed',
+                    sourcemap: 'none'
+                },
+                files: {
+                    'public/css/style.css': 'style.scss'
                 }
             }
         },
@@ -46,6 +55,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('development', ['sass:compile', 'watch']);
 
-    grunt.registerTask('production',  ['sass:compile']);
+    grunt.registerTask('production',  ['sass:compile_production']);
 
 };
