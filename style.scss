@@ -1,16 +1,17 @@
 @font-face {
     font-family: 'Univers-Condensed';
-    src: url('/public/css/fonts/2D3A2F_0_0.eot');
-    src: url('/public/css/fonts/2D3A2F_0_0.eot?#iefix') format('embedded-opentype'), url('fonts/2D3A2F_0_0.woff2') format('woff2'),
-    url('/public/css/fonts/2D3A2F_0_0.woff') format('woff'),
-    url('/public/css/fonts/2D3A2F_0_0.ttf') format('truetype'),
-    url('/public/css/fonts/2D3A2F_0_0.svg#wf') format('svg');
+    src: url('https://ntslive.github.io/online-installation/public/css/fonts/2D3A2F_0_0.eot');
+    src: url('https://ntslive.github.io/online-installation/public/css/fonts/2D3A2F_0_0.eot?#iefix') format('embedded-opentype'),
+    url('https://ntslive.github.io/online-installation/public/css/fonts/2D3A2F_0_0.woff2') format('woff2'),
+    url('https://ntslive.github.io/online-installation/public/css/fonts/2D3A2F_0_0.woff') format('woff'),
+    url('https://ntslive.github.io/online-installation/public/css/fonts/2D3A2F_0_0.ttf') format('truetype'),
+    url('https://ntslive.github.io/online-installation/public/css/fonts/2D3A2F_0_0.svg#wf') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Univers-Condensed';
-    src: url('/public/css/fonts/UniversLTPro-BoldCond.otf') format('opentype');
+    src: url('https://ntslive.github.io/online-installation/public/css/fonts/UniversLTPro-BoldCond.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -88,7 +89,7 @@ $logo-size: 40px;
     position: relative;
     width: $logo-size;
     height: $logo-size;
-    background-image: url('/public/img/NTS_LOGO_MASTER.png');
+    background-image: url('https://ntslive.github.io/online-installation/public/img/NTS_LOGO_MASTER.png');
     background-size: $logo-size;
 
     &:hover {
