@@ -19,12 +19,16 @@
     font-family: "Univers-Condensed", Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
+    letter-spacing: 0.055em !important;
 }
 .nts-font-secondary {
     font-family: Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     letter-spacing: 0.1px;
+}
+.text-bold {
+    font-weight: bold;
 }
 
 $edge-padding: 40px;
